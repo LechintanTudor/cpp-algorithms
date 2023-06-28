@@ -16,7 +16,7 @@ void backtrack_inner(int* buffer, int buffer_len, int index) {
 
     for (int i = 0; i <= 9; ++i) {
         buffer[index] = i;
-       backtrack_inner(buffer, buffer_len, index + 1); 
+        backtrack_inner(buffer, buffer_len, index + 1); 
     }
 }
 
