@@ -1,6 +1,5 @@
 #include <cassert>
 #include <iostream>
-#include <vector>
 
 void quicksort(int* values, int values_len);
 void quicksort_inner(int* values, int left, int right);
